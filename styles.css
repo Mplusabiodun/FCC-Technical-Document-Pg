@@ -4,8 +4,6 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6em;
   /* display: block; */
-  /* display: flex; */
-  /* flex-direction: row; */
 }
 
 #main-doc {
@@ -36,7 +34,6 @@ body {
 
 #navbar {
   margin-left: 10px;
-  /* width: 18em; */
   width: 22%;
   position: fixed;
   height: 100%;
@@ -79,12 +76,11 @@ hr {
 @media screen and (max-width: 884px) {
   body {
     line-height: 15px;
-    display: flex;
-    flex-direction: column;
   }
   #main-doc {
-    font-size: 13px;
-    padding-top: 0px;
+    font-size: 10px;
+  margin-left: 10em;
+  margin-top: 0;
   }
   #navbar {
     margin-left: 10px;
@@ -94,20 +90,15 @@ hr {
 
   #navbar a {
     line-height: 15px;
-    font-size: 12px;
+    font-size: 10px;
   }
   #navbar h1 {
     color: black;
-    font-size: 1.1em;
+    font-size: 10px;
     padding-bottom: 0;
   }
 
   hr {
     margin: 2px;
-  }
-
-  .different {
-    line-height: 0em;
-    color: blue;
   }
 }
